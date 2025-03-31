@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rutas MRC</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Rutas</h1>
+    <select id="rutaSelector">
+      <option value="">Selecciona una ruta</option>
+      <option value="norte">Ruta Norte</option>
+      <option value="santa-cruz">Ruta Santa Cruz</option>
+      <option value="sur">Ruta Sur</option>
+    </select>
+
+    <div id="empresasContainer"></div>
+
+    <button id="crearRutaBtn">Crear ruta en Google Maps</button>
+  </div>
+
+  <!-- Modal para ordenar la ruta -->
+  <div id="ordenModal" class="modal">
+    <div class="modal-content">
+      <h2>Orden de ruta</h2>
+      <p>Arrastra y suelta para definir el orden de la ruta.</p>
+      <div id="ordenContainer"></div>
+      <div class="modal-buttons">
+        <button id="generarRutaOrdenBtn">Generar ruta</button>
+        <button id="cancelarOrdenBtn">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

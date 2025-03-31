@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+  }
+  
+  select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #222;
+  }
+  
+  #empresasContainer {
+    margin-bottom: 20px;
+  }
+  
+  .empresa {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin: 6px 0;
+    border-radius: 6px;
+    background-color: #f3f3f3;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  }
+  
+  .empresa input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    flex-grow: 1;
+    font-size: 1rem;
+    
+  }
+  
+  .company-info {
+    margin-left: 10px;
+    display: inline-block;
+  }
+  
+  .tipo {
+    color: #f26427;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .referencia {
+    color: #0059b2;
+  }
+  
+  button {
+    background-color: #f26427;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d9521e;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .modal-content {
+    background-color: #ffffff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #f26427;
+  }
+  
+  .modal-content h2 {
+    color: #222;
+  }
+  
+  #ordenContainer {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    min-height: 50px;
+  }
+  
+  .orden-item {
+    padding: 10px;
+    margin-bottom: 6px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: move;
+    text-align: left;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .hora-salida {
+    background-color: #fff0e5;
+    border-left: 5px solid #f26427;
+    padding: 12px;
+    margin: 15px 0 10px 0;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #d9521e;
+    font-size: 1.1rem;
+  }
+  
+  .martes-jueves-titulo {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #f26427;
+    font-size: 1.2rem;
+  }
+  
+  .especiales-martes-jueves {
+    background-color: #fff5e6;
+    border: 2px solid #ff9900;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .especiales-martes-jueves .titulo {
+    font-weight: bold;
+    color: #f26427;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo común base */
+  .btn-seleccionar-todos {
+    margin-left: 12px;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: bold;
+    border: none;
+  }
+  
+  /* Botón auxiliar para Santa Cruz */
+  .btn-santa-cruz {
+    background-color: #dce3ec;          /* azul grisáceo suave */
+    color: #1e293b;                     /* texto en color corporativo oscuro */
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+    float: right;
+    border: 1px solid #b6c2d4;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-santa-cruz:hover {
+    background-color: #c9d3e2;
+    color: #0f172a;                     /* aún más oscuro al pasar el ratón */
+  }
+  /* Botón más fuerte para Norte y Sur */
+  .btn-norte-sur {
+    background-color: #dce3ec;          /* azul grisáceo suave */
+    color: #1e293b;                     /* texto en color corporativo oscuro */
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+    float: right;
+    border: 1px solid #b6c2d4;
+    transition: background-color 0.3s, color 0.3s;
+  
+  }
+  
+  .btn-norte-sur:hover {
+    background-color: #d9521e;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      margin: 20px 10px;
+      padding: 16px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .empresa {
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+  
+    .empresa input[type="checkbox"] {
+      flex-shrink: 0;
+      margin-right: 8px;
+      transform: scale(1.2);
+    }
+  
+    .company-name {
+      flex-grow: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  
+    .company-info {
+      display: block;
+      font-size: 0.85rem;
+      color: #444;
+    }
+  
+    .empresa button {
+      flex-shrink: 0;
+      font-size: 0.85rem;
+      padding: 8px 10px;
+      white-space: nowrap;
+    }
+  
+    .hora-salida {
+      font-size: 1rem;
+      padding: 10px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .btn-seleccionar-todos {
+      float: none;
+      align-self: flex-end;
+      margin-top: 6px;
+    }
+  
+    .modal-content {
+      margin-top: 30%;
+      width: 95%;
+    }
+  }
+  
