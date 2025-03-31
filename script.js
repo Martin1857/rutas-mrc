@@ -661,7 +661,7 @@ generarRutaOrdenBtn.addEventListener("click", () => {
         const rutaUrl = `https://www.google.com/maps/dir/${encodeURIComponent(
           origen
         )}/${puntos.map(encodeURIComponent).join("/")}`;
-        window.open(rutaUrl, "_blank");
+        window.location.href = rutaUrl;
         ordenModal.style.display = "none";
       },
       () => alert("Error al obtener la ubicación actual.")
