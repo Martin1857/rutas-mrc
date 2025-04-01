@@ -26,7 +26,7 @@ const rutas = {
       referencia: "",
     },
     {
-      nombre: "BMotocicletas Besay",
+      nombre: "Motocicletas Besay",
       url: "https://maps.app.goo.gl/mhhZ45a8feKrZd6z7",
       tipo: "Albarán",
       referencia: "",
@@ -53,7 +53,7 @@ const rutas = {
       nombre: "Taller @punto ⚠️",
       url: "https://maps.app.goo.gl/EfixzZdi1cfSR3NB7",
       tipo: "Albarán",
-      referencia: "(Fabian) Padre de Fabi",
+      referencia: "Fabian (Padre de Fabi)",
     },
     {
       nombre: "Taller Dos y Cuatro ruedas",
@@ -426,16 +426,16 @@ const horariosSantaCruz = [
     hora: "Hora de salida 09:30 a 12:00",
     empresas: [
       "Biker Brother's",
-      "Motocentro",
+      "Moto Centro Tenerife",
       "Moto Rider",
-      "Femotor",
-      "Accesorios MBK",
+      "Femotor Suzuki",
+      "Motorbike",
       "Guanche Motor",
-      "Llopis",
-      "Fierro",
+      "Taller Llopis",
+      "Suzuki Fierro",
       "Sicremotorbike",
       "Supermoto",
-      "ChopperMoto",
+      "Chopper Motos",
       "Gran Scooter",
     ],
   },
@@ -444,24 +444,24 @@ const horariosSantaCruz = [
     empresas: [
       "GR Motor",
       "Motos Eloy",
-      "Mecacentro Vulcano",
-      "El Paso 2000",
-      "MotorValle",
+      "Mekacentro Vulcano",
+      "El Paso 2000 Guimar",
+      "Motorvalle",
       "Biker Brother's",
-      "Hatobito La Cuesta",
+      "Hatobito Honda La Cuesta",
     ],
   },
   {
     hora: "Hora de salida 14:00 a 16:00",
     empresas: [
-      "Accesorios MBK",
+      "Motorbike",
       "Guanche Motor",
-      "Llopis",
-      "Fierro",
+      "Taller Llopis",
+      "Suzuki Fierro",
       "Supermoto",
-      "Motocentro",
+      "Moto Centro Tenerife",
       "Moto Rider",
-      "Femotor",
+      "Femotor Suzuki",
     ],
   },
 ];
@@ -707,4 +707,10 @@ function crearBotonSeleccionarTodos(
   } else {
     parentElement.prepend(btn);
   }
+}
+function volverAlmacen() {
+  // Reemplaza "TU_DIRECCION_O_COORDENADAS" con la dirección o coordenadas reales.
+  // Ejemplo con coordenadas: "40.712776,-74.005974"
+  var url = "https://maps.app.goo.gl/MZkVhvfTYwc9xLoL7";
+  window.open(url, "_blank"); // Abre la ubicación en una nueva pestaña.
 }
