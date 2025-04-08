@@ -65,7 +65,7 @@ const rutas = {
       nombre: "JD Mecánica",
       url: "https://maps.app.goo.gl/V9xqYoYmRqCisKSG6",
       tipo: "Factura",
-      referencia: "",
+      referencia: "Sociedad civil",
     },
     {
       nombre: "Taller Moto Laser",
@@ -101,7 +101,7 @@ const rutas = {
       nombre: "Pepín Motos",
       url: "https://maps.app.goo.gl/khvo7uuDSjtRthcSA",
       tipo: "Factura",
-      referencia: "Pepín",
+      referencia: "Pepín 🚫13.00🚫",
     },
     {
       nombre: "El taller de angel taller de motos",
@@ -131,7 +131,7 @@ const rutas = {
       nombre: "Zig Zag Motos",
       url: "https://maps.app.goo.gl/qfPvywFP5viY7tNNA",
       tipo: "Factura",
-      referencia: "Ricardo Zerené",
+      referencia: "Ricardo Zerené 🚫14.00🚫",
     },
     {
       nombre: "Mas Que Motos Tenerife",
