@@ -58,7 +58,7 @@ const rutas = {
     {
       nombre: "Taller Dos y Cuatro ruedas",
       url: "https://maps.app.goo.gl/CHAg6rz9x3LwF2TGA",
-      tipo: "Factura",
+      tipo: "Albarán",
       referencia: "Fabi",
     },
     {
@@ -101,7 +101,7 @@ const rutas = {
       nombre: "Pepín Motos",
       url: "https://maps.app.goo.gl/khvo7uuDSjtRthcSA",
       tipo: "Factura",
-      referencia: "Pepín 🚫13.00🚫",
+      referencia: "🚫13.00🚫",
     },
     {
       nombre: "El taller de angel taller de motos",
@@ -131,7 +131,7 @@ const rutas = {
       nombre: "Zig Zag Motos",
       url: "https://maps.app.goo.gl/qfPvywFP5viY7tNNA",
       tipo: "Factura",
-      referencia: "Ricardo Zerené 🚫14.00🚫",
+      referencia: "Zerené 🚫14.00🚫",
     },
     {
       nombre: "Mas Que Motos Tenerife",
