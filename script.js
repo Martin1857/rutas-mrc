@@ -89,11 +89,17 @@ const rutas = {
       nombre: "Alonso Competición",
       url: "https://maps.app.goo.gl/n3PeD53PVDg7PNfa6",
       tipo: "Albarán",
-      referencia: "Juanma Mixta",
+      referencia: "Juanma Mixta 🚫13.30🚫",
     },
     {
       nombre: "White Stars ⚠️",
       url: "https://maps.app.goo.gl/1zE226vtRhjDZhVw6",
+      tipo: "Albarán",
+      referencia: "",
+    },
+    {
+      nombre: "MCM Racing",
+      url: "https://maps.app.goo.gl/KhhvfKXn8o2CYcEp8",
       tipo: "Albarán",
       referencia: "",
     },
@@ -375,7 +381,7 @@ const rutas = {
       nombre: "Paraiso Motorcycles",
       url: "https://maps.app.goo.gl/q1rRS6e2SSukdSmX6",
       tipo: "Factura",
-      referencia: "",
+      referencia: "🚫13.00🚫",
     },
     {
       nombre: "Motos Topacio",
@@ -406,6 +412,12 @@ const rutas = {
       url: "https://maps.app.goo.gl/QJasdA9kRKcxY7xH9",
       tipo: "Albarán",
       referencia: "Pablo César",
+    },
+    {
+      nombre: "Taller y concesionario de motocicletas | JONY MOTOS",
+      url: "https://maps.app.goo.gl/Mx4h7EvreD27CThLA",
+      tipo: "Factura",
+      referencia: "",
     },
   ],
 };
