@@ -418,6 +418,13 @@ const rutas = {
       tipo: "Factura",
       referencia: "",
     },
+        {
+      nombre: "Paraiso Motorcycles",
+      mostrar: "",
+      url: "https://maps.app.goo.gl/q1rRS6e2SSukdSmX6",
+      tipo: "Factura",
+      referencia: "🚫13.00🚫",
+    },
     {
       nombre: "CMR Moto Center",
       mostrar: "",
@@ -438,13 +445,6 @@ const rutas = {
       url: "https://maps.app.goo.gl/RcKifqQ4vWkWjseg8",
       tipo: "Factura",
       referencia: "",
-    },
-    {
-      nombre: "Paraiso Motorcycles",
-      mostrar: "",
-      url: "https://maps.app.goo.gl/q1rRS6e2SSukdSmX6",
-      tipo: "Factura",
-      referencia: "🚫13.00🚫",
     },
     {
       nombre: "Motos Topacio",
@@ -485,7 +485,7 @@ const rutas = {
       nombre: "Taller y concesionario de motocicletas | JONY MOTOS",
       mostrar: "Jony Motos",
       url: "https://maps.app.goo.gl/Mx4h7EvreD27CThLA",
-      tipo: "Factura",
+      tipo: "Albarán",
       referencia: "Jonathan Hernández Soriano",
     },
   ],
